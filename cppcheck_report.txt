@@ -1,0 +1,11 @@
+lua.c:38:1: error: There is an unknown macro here somewhere. Configuration is required. If ZEND_BEGIN_ARG_INFO_EX is a macro then please configure it. [unknownMacro]
+ZEND_BEGIN_ARG_INFO_EX(arginfo_lua_call, 0, 0, 2)
+^
+lua.c:845:0: information: Skipping configuration 'LUA_ERRGCMM' since the value of 'LUA_ERRGCMM' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ REGISTER_LONG_CONSTANT("LUA_ERRGCMM", LUA_ERRGCMM, CONST_PERSISTENT | CONST_CS);
+^
+lua_closure.c:42:1: error: There is an unknown macro here somewhere. Configuration is required. If ZEND_BEGIN_ARG_INFO_EX is a macro then please configure it. [unknownMacro]
+ZEND_BEGIN_ARG_INFO_EX(arginfo_lua_invoke, 0, 0, 1)
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
